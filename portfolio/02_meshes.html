@@ -71,50 +71,55 @@
     <div class="portfolio-item-individual">
         <h2>Project Overview</h2>
         <p>
-            This project is the second assignment for CS250 Computer Graphics II at DigiPen Institute of Technology.
-            The goal was to procedurally generate six 3D geometric primitives — Plane, Cube, Sphere, Torus, Cylinder,
-            and Cone — using parametric equations, and render them with OpenGL using textured materials, wireframe
-            overlays, and normal visualization.
+            This is the second assignment for CS250 Computer Graphics II at DigiPen Institute of Technology.
+            The goal was to write code that procedurally generates six 3D shapes — Plane, Cube, Sphere, Torus,
+            Cylinder, and Cone — purely from math, without loading any model files.
         </p>
         <p>
-            The project builds on the rendering pipeline from the Hello Quad assignment, adding a Material system,
-            a Mesh abstraction with SubMeshes, and an index buffer–based rendering approach. All meshes are
-            generated at runtime with configurable stacks and slices parameters.
+            Each shape is built at runtime using parametric equations, with a configurable number of stacks and slices
+            that control how smooth or blocky it looks. The shapes are rendered three ways: textured, wireframe, and
+            with normal vectors drawn so you can see if the lighting math is correct.
         </p>
 
         <h2>Tasks Completed</h2>
         <ul>
-            <li><strong>build_index_buffer</strong> &mdash; Implemented the shared index buffer generator that
-                creates triangle pairs (two triangles per grid cell) for any stacks &times; slices grid.</li>
-            <li><strong>create_plane_vertices</strong> &mdash; Generated a flat plane mesh with positions
-                centered at the origin, uniform normals facing +Z, and UV coordinates mapped across the surface.</li>
-            <li><strong>create_sphere</strong> &mdash; Implemented sphere generation using spherical coordinates
-                (beta/alpha) to map stacks and slices into 3D positions with proper normals.</li>
-            <li><strong>create_torus</strong> &mdash; Implemented torus generation with major radius R=0.35 and
-                minor radius r=0.15, using angle interpolation for partial or full torus shapes.</li>
-            <li><strong>add_cap</strong> &mdash; Implemented triangle fan cap generation for the top and bottom
-                of cylinders and cones, with correct winding order based on cap direction.</li>
-            <li><strong>create_cylinder</strong> &mdash; Generated cylinder body vertices with side-facing normals,
-                then added top and bottom caps using the add_cap helper.</li>
-            <li><strong>create_cone</strong> &mdash; Generated cone vertices with a tapering radius from bottom
-                to tip, computed tangent-based normals for smooth shading, and added a bottom cap.</li>
-            <li><strong>convert_to_lines_pattern</strong> &mdash; Converted triangle index buffers into line pair
-                indices for wireframe rendering, handling both quad-pair and individual triangle patterns.</li>
+            <li><strong>build_index_buffer</strong> &mdash; Wrote the index buffer generator that connects a grid of
+                vertices into triangles. Each cell of the stacks &times; slices grid becomes two triangles, and this
+                same buffer is reused by every shape that is built on a grid.</li>
+            <li><strong>create_plane_vertices</strong> &mdash; Generated a flat plane centered at the origin with
+                positions in the XY plane, normals pointing in the +Z direction, and UV coordinates mapped from
+                (0,0) to (1,1) across the surface.</li>
+            <li><strong>create_sphere</strong> &mdash; Used spherical coordinates (beta for latitude, alpha for
+                longitude) to place each vertex on the surface of a sphere. Normals are just the normalized
+                position vector since every point faces outward from the center.</li>
+            <li><strong>create_torus</strong> &mdash; Built a torus using a major radius of 0.35 and minor radius
+                of 0.15. The normal at each vertex is computed by pointing away from the nearest point on the
+                torus's center ring.</li>
+            <li><strong>add_cap</strong> &mdash; Wrote a helper that adds a triangle fan to close the top or bottom
+                of a cylinder or cone. Getting the winding order right depending on which end the cap is on was
+                a key detail here.</li>
+            <li><strong>create_cylinder</strong> &mdash; Generated the side of the cylinder with outward-facing
+                normals, then called add_cap for both the top and bottom to close it off.</li>
+            <li><strong>create_cone</strong> &mdash; Built the cone with a radius that tapers from the base to the
+                tip. The normals are calculated using the tangent direction so the shading looks smooth rather
+                than faceted.</li>
+            <li><strong>convert_to_lines_pattern</strong> &mdash; Converted the triangle index buffer into a line
+                index buffer for wireframe rendering by pairing up the edges of each triangle.</li>
         </ul>
 
         <h2>Reflection</h2>
         <p>
-            The most challenging part of this assignment was understanding the parametric equations for the torus.
-            Getting the major and minor radius relationships correct, along with the normal calculation using the
-            center offset, required careful attention to the math. Debugging was also tricky since incorrect normals
-            are hard to spot visually without the normal visualization feature.
+            The torus was by far the hardest shape to implement. I understood the basic idea — sweep a circle around
+            an axis — but figuring out the correct normal calculation took a while. You have to find the center point
+            on the inner ring and point away from it, which is not obvious at first. Once I saw it working with the
+            normal visualization turned on, it clicked.
         </p>
         <p>
-            Through this assignment, I gained a much deeper understanding of how 3D meshes are constructed from
-            vertices and indices. I learned how the same index buffer pattern can be reused across different shapes,
-            and how caps require a different triangle fan approach compared to the grid-based body. Working with
-            the Material system also gave me experience with shader uniforms and texture management in a more
-            structured way.
+            I also learned that the index buffer pattern for the grid is surprisingly flexible. I wrote it once and
+            it worked for the plane, sphere, torus, and the body of the cylinder and cone without any changes.
+            The caps were a separate challenge since they need a triangle fan layout instead of a grid, which is
+            a completely different index pattern. Overall this assignment gave me a much clearer picture of how
+            3D geometry is actually stored and sent to the GPU.
         </p>
     </div>
 
