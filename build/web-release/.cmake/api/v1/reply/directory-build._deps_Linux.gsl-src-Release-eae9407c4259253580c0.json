@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-build",
+		"source" : "build/_deps_Linux/gsl-src"
+	}
+}
