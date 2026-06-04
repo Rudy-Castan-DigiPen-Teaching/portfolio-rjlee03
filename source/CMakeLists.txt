@@ -1,6 +1,6 @@
 # author Rudy Castan
 # author Ryungjae Lee
-# date 2025 Spring
+# date 2026 Spring
 # CS250 Computer Graphics II
 # copyright DigiPen Institute of Technology
 

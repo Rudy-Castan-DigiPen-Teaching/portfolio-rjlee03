@@ -1,7 +1,8 @@
 /**
  * \file
  * \author Rudy Castan
- * \date 2024 Spring
+ * \author Ryungjae Lee
+ * \date 2026 Spring
  * \par CS250 Computer Graphics II
  * \copyright DigiPen Institute of Technology
  */
