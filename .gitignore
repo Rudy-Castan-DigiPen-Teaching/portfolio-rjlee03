@@ -40,3 +40,4 @@ Desktop.ini
 *.tmp
 *.log
 *~
+.claude/
