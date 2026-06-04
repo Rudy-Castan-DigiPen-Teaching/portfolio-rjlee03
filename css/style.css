@@ -263,10 +263,9 @@ header {
   z-index: -2;
 }
 
-.intro-bg iframe {
+.intro-bg canvas {
   width: 100%;
   height: 100%;
-  border: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -547,7 +546,8 @@ header {
   max-width: 1200px;
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 3; /* Maintain aspect ratio */
-  margin: 0 auto; /* Centering */
+  min-height: 500px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
   border: none;
 }

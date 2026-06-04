@@ -69,22 +69,57 @@
 
     <div class="portfolio-item-individual">
         <h2>Project Overview</h2>
-        <p>Provide a brief description of the project, its purpose, and what you aimed to achieve.</p>
+        <p>
+            This project is the first demo assignment for CS250 Computer Graphics II at DigiPen Institute of Technology.
+            The goal was to build a working OpenGL rendering pipeline from scratch by implementing core graphics classes,
+            writing GLSL shaders, and animating a textured quad on screen.
+        </p>
+        <p>
+            The project targets three platforms: Windows (native OpenGL 3.3), and Web (WebGL 2 via Emscripten),
+            ensuring the code is compatible across all three environments. It also features a live asset reloading system,
+            allowing shaders and textures to be swapped while the application is running.
+        </p>
 
         <h2>Tasks Completed</h2>
         <ul>
-            <li>Describe the tasks you completed for this project.</li>
-            <li>Be specific about your contributions and the technologies used.</li>
+            <li><strong>VertexBuffer</strong> &mdash; Implemented GPU vertex buffer management using
+                <code>glGenBuffers</code>, <code>glBindBuffer</code>, <code>glBufferData</code>, and
+                <code>glBufferSubData</code> through the project's GL wrapper layer.</li>
+            <li><strong>IndexBuffer</strong> &mdash; Implemented indexed rendering support, uploading index data
+                to the GPU and binding it to <code>GL_ELEMENT_ARRAY_BUFFER</code>.</li>
+            <li><strong>VertexArray</strong> &mdash; Implemented Vertex Array Object management including
+                vertex attribute setup (<code>glVertexAttribPointer</code>, <code>glEnableVertexAttribArray</code>),
+                instancing divisor support, and both <code>DrawElements</code> and <code>DrawArrays</code> draw calls.</li>
+            <li><strong>Texture</strong> &mdash; Implemented 2D texture loading from file and memory using STB image,
+                with configurable filtering and wrapping modes via <code>glTexParameteri</code>.</li>
+            <li><strong>Vertex Shader Animation</strong> &mdash; The quad smoothly zooms in and out and rotates,
+                stopping at full zoom to reverse direction. Mouse position is tracked and used to move the quad
+                across the screen.</li>
+            <li><strong>Fragment Shader Animation</strong> &mdash; A three-channel RGB tint pulses over time using
+                offset sine waves, creating a smooth color-cycling effect blended over the texture.</li>
+            <li><strong>Custom Texture</strong> &mdash; Replaced the default <code>paint_me.png</code> with a
+                custom hand-drawn image.</li>
+            <li><strong>Window Title</strong> &mdash; Updated the application title to display my name.</li>
         </ul>
 
         <h2>Reflection</h2>
-        <p>Reflect on the project, discussing any challenges faced, solutions implemented, and what you learned from the
-            experience.</p>
+        <p>
+            The hardest part of this assignment was creating the custom texture image. Since I am not an artist,
+            I did not know what design I wanted to make. I had to experiment with different ideas before finally
+            settling on something I was happy with.
+        </p>
+        <p>
+            Through this assignment, I got much more comfortable working with OpenGL. I learned how to implement
+            core graphics classes like vertex buffers, index buffers, vertex arrays, and textures from scratch.
+            I also learned how to write GLSL shaders and animate them using uniforms like time and mouse position.
+            Additionally, I got exposure to building a project for the web using Emscripten, which was a completely
+            new experience for me.
+        </p>
     </div>
 
     <div class="portfolio-item-individual">
         <h2>Demo</h2>
-        <iframe id="demo" src="../webgl/D01HelloQuad/graphics_fun.html" style="width:100%; height:400px; border:none; display:block;"></iframe>
+        <iframe id="demo" src="../webgl/D01HelloQuad/graphics_fun.html"></iframe>
     </div>
 
 
