@@ -70,17 +70,52 @@
 
     <div class="portfolio-item-individual">
         <h2>Project Overview</h2>
-        <p>Provide a brief description of the project, its purpose, and what you aimed to achieve.</p>
+        <p>
+            This project is the second assignment for CS250 Computer Graphics II at DigiPen Institute of Technology.
+            The goal was to procedurally generate six 3D geometric primitives — Plane, Cube, Sphere, Torus, Cylinder,
+            and Cone — using parametric equations, and render them with OpenGL using textured materials, wireframe
+            overlays, and normal visualization.
+        </p>
+        <p>
+            The project builds on the rendering pipeline from the Hello Quad assignment, adding a Material system,
+            a Mesh abstraction with SubMeshes, and an index buffer–based rendering approach. All meshes are
+            generated at runtime with configurable stacks and slices parameters.
+        </p>
 
         <h2>Tasks Completed</h2>
         <ul>
-            <li>Describe the tasks you completed for this project.</li>
-            <li>Be specific about your contributions and the technologies used.</li>
+            <li><strong>build_index_buffer</strong> &mdash; Implemented the shared index buffer generator that
+                creates triangle pairs (two triangles per grid cell) for any stacks &times; slices grid.</li>
+            <li><strong>create_plane_vertices</strong> &mdash; Generated a flat plane mesh with positions
+                centered at the origin, uniform normals facing +Z, and UV coordinates mapped across the surface.</li>
+            <li><strong>create_sphere</strong> &mdash; Implemented sphere generation using spherical coordinates
+                (beta/alpha) to map stacks and slices into 3D positions with proper normals.</li>
+            <li><strong>create_torus</strong> &mdash; Implemented torus generation with major radius R=0.35 and
+                minor radius r=0.15, using angle interpolation for partial or full torus shapes.</li>
+            <li><strong>add_cap</strong> &mdash; Implemented triangle fan cap generation for the top and bottom
+                of cylinders and cones, with correct winding order based on cap direction.</li>
+            <li><strong>create_cylinder</strong> &mdash; Generated cylinder body vertices with side-facing normals,
+                then added top and bottom caps using the add_cap helper.</li>
+            <li><strong>create_cone</strong> &mdash; Generated cone vertices with a tapering radius from bottom
+                to tip, computed tangent-based normals for smooth shading, and added a bottom cap.</li>
+            <li><strong>convert_to_lines_pattern</strong> &mdash; Converted triangle index buffers into line pair
+                indices for wireframe rendering, handling both quad-pair and individual triangle patterns.</li>
         </ul>
 
         <h2>Reflection</h2>
-        <p>Reflect on the project, discussing any challenges faced, solutions implemented, and what you learned from the
-            experience.</p>
+        <p>
+            The most challenging part of this assignment was understanding the parametric equations for the torus.
+            Getting the major and minor radius relationships correct, along with the normal calculation using the
+            center offset, required careful attention to the math. Debugging was also tricky since incorrect normals
+            are hard to spot visually without the normal visualization feature.
+        </p>
+        <p>
+            Through this assignment, I gained a much deeper understanding of how 3D meshes are constructed from
+            vertices and indices. I learned how the same index buffer pattern can be reused across different shapes,
+            and how caps require a different triangle fan approach compared to the grid-based body. Working with
+            the Material system also gave me experience with shader uniforms and texture management in a more
+            structured way.
+        </p>
     </div>
 
     <div class="portfolio-item-individual">
