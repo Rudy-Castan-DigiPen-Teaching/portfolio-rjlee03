@@ -1,25 +1,42 @@
-# VS Code / Visual Studio Hidden folders
+# IDE folders
 .vs/
 .vscode/
+.idea/
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-build/*
-Build/*
-!build/web-release/
-!Build/web-release/
+# CMake build output
+build/
+Build/
 
-# imgui gen files
+# Compiled binaries and libraries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.o
+*.obj
+*.pdb
+
+# Emscripten / WebAssembly intermediates
+*.wasm
+*.bc
+*.jsz
+
+# clang tooling
+.cache/
+
+# ImGui generated files
 imgui.ini
 
-# mac os files
-.DS_STORE
+# macOS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+*~
