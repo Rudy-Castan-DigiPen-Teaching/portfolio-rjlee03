@@ -1,0 +1,182 @@
+[
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/imgui.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/imgui.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/imgui.cpp",
+  "output": "CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/imgui.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/imgui_draw.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/imgui_draw.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/imgui_draw.cpp",
+  "output": "CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/imgui_draw.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/imgui_tables.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/imgui_tables.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/imgui_tables.cpp",
+  "output": "CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/imgui_tables.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/imgui_widgets.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/imgui_widgets.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/imgui_widgets.cpp",
+  "output": "CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/backends/imgui_impl_opengl3.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends/imgui_impl_opengl3.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/backends/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/backends/imgui_impl_sdl2.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends/imgui_impl_sdl2.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends/imgui_impl_sdl2.cpp",
+  "output": "CMakeFiles/the_imgui.dir/build/_deps_Linux/dearimgui-src/backends/imgui_impl_sdl2.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -O3 -DNDEBUG -std=c++20 -o CMakeFiles/the_stb.dir/build/_deps_Linux/stb_headers/stb_implementation.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers/stb_implementation.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers/stb_implementation.cpp",
+  "output": "CMakeFiles/the_stb.dir/build/_deps_Linux/stb_headers/stb_implementation.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/assets/Path.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/assets/Path.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/assets/Path.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/assets/Path.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/assets/Reloader.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/assets/Reloader.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/assets/Reloader.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/assets/Reloader.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/demos/D01HelloQuad.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/demos/D01HelloQuad.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/demos/D01HelloQuad.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/demos/D01HelloQuad.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/demos/D02ProceduralMeshes.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/demos/D02ProceduralMeshes.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/demos/D02ProceduralMeshes.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/demos/D02ProceduralMeshes.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/demos/DemosFactory.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/demos/DemosFactory.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/demos/DemosFactory.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/demos/DemosFactory.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/graphics/Material.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/graphics/Material.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/graphics/Material.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/graphics/Material.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/graphics/Mesh.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/graphics/Mesh.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/graphics/Mesh.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/graphics/Mesh.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/opengl/GL.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/GL.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/GL.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/opengl/GL.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/opengl/IndexBuffer.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/IndexBuffer.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/IndexBuffer.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/opengl/IndexBuffer.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/opengl/Shader.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/Shader.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/Shader.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/opengl/Shader.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/opengl/Texture.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/Texture.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/Texture.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/opengl/Texture.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/opengl/VertexArray.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/VertexArray.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/VertexArray.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/opengl/VertexArray.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/opengl/VertexBuffer.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/VertexBuffer.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/opengl/VertexBuffer.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/opengl/VertexBuffer.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/util/Directory.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/util/Directory.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/util/Directory.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/util/Directory.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/util/Logger.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/util/Logger.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/util/Logger.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/util/Logger.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/util/Random.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/util/Random.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/util/Random.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/util/Random.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/util/WatchFiles.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/util/WatchFiles.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/util/WatchFiles.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/util/WatchFiles.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/window/input/SDLInput.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/window/input/SDLInput.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/window/input/SDLInput.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/window/input/SDLInput.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/window/Application.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/window/Application.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/window/Application.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/window/Application.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/window/ImGuiHelper.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/window/ImGuiHelper.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/window/ImGuiHelper.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/window/ImGuiHelper.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/window/Logo.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/window/Logo.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/window/Logo.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/window/Logo.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/window/Settings.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/window/Settings.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/window/Settings.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/window/Settings.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release",
+  "command": "/home/ryungjae-lee/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/. -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/dearimgui-src/backends -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/stb_headers -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/_deps_Linux/gsl-src/include -isystem /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/build/web-release/_deps/the_glm-src/glm/.. -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/graphics_fun.dir/main.cpp.o -c /mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/main.cpp",
+  "file": "/mnt/c/Users/ryung/Documents/GitHub/portfolio-rjlee03/source/main.cpp",
+  "output": "source/CMakeFiles/graphics_fun.dir/main.cpp.o"
+}
+]
