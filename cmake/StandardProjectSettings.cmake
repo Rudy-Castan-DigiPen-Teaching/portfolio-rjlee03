@@ -5,7 +5,7 @@
 
 set(FETCHCONTENT_QUIET TRUE)
 include(FetchContent)
-set(FETCHCONTENT_BASE_DIR "${CMAKE_SOURCE_DIR}/build/_deps_${CMAKE_HOST_SYSTEM_NAME}")
+set(FETCHCONTENT_BASE_DIR "${CMAKE_SOURCE_DIR}/build/_deps_${CMAKE_SYSTEM_NAME}")
 
 # Turn ON for verbose build output
 set(CMAKE_VERBOSE_MAKEFILE OFF)

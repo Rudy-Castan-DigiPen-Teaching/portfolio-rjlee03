@@ -59,13 +59,9 @@
             "name": "conf-web-common",
             "description": "Common Web/Emscripten configuration",
             "hidden": true,
-            "inherits": "conf-unixlike-common",
+            "inherits": "conf-common",
             "generator": "Ninja",
-            "toolchainFile": "~/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake",
-            "cacheVariables": {
-                "CMAKE_C_COMPILER": "~/emsdk/upstream/emscripten/emcc",
-                "CMAKE_CXX_COMPILER": "~/emsdk/upstream/emscripten/em++"
-            }
+            "toolchainFile": "$env{EMSDK}/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
         },
         {
             "name": "windows-debug",
